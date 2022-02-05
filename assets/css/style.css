@@ -1,0 +1,19 @@
+ul.tabheading{
+    border: 1px solid red;
+    display: flex;
+    list-style: none;
+    padding: 10px;
+}
+ul.tabheading li{
+    margin-right: 10px;
+    cursor: pointer;
+}
+.tabpanel{
+    display: none;
+}
+.tabpanel.active{
+    display: block;
+}
+ul.tabheading li.active{
+  background: orange;
+}
